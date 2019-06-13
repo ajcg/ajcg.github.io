@@ -1,0 +1,29 @@
+body {
+    font-family: Courier New, Courier, monospace;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+    user-select: none;
+    -webkit-user-select: none;
+    background-color: darkslategrey;
+  }
+  
+  #clockOuter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  #clockInner {
+    width: 99%;
+    height: 99%;
+  }
+  
+  #clockCanvas {
+    width: 100%;
+    height: 100%;
+  }
